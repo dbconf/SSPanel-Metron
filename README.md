@@ -33,6 +33,8 @@ cp config/appprofile.example.php config/appprofile.php
 
 .config.php设置后执行`php xcat Tool initQQWry` 下载IP解析库
 
+### PHP > Setting，在 Disabled functions一栏删除 system、proc_open、proc_get_status、putenv、pcntl_signal。
+
 #### 8.网站设置
 
 打开 宝塔面版 > 网站 > 你的网站
